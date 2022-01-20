@@ -1,18 +1,20 @@
 import React from "react";
+import CardWidget from "./CardWidget";
 import './NavBar.css'
-import img from '../img/logo.png';
 
 const NavBar = (props) => {
     return(
-		<div className="navbar">
+		<div>
+			<nav className="navbar">
 					<ul className="navbar_topics">
-						<li>Home</li>
-						<li>Productos</li>
-						<li>Consultas</li>
-						<li>Promociones</li>
-						<li>Contacto</li>
-						<img className='logo' src={img} alt='logo-app' />
-					</ul>
+					<li><CardWidget /></li>
+					<li>Home</li>
+					<li>Productos</li>
+					<li>Consultas</li>
+					<li>Promociones</li>
+					<li>Contacto</li>
+				</ul>
+			</nav>
 		</div>
     );
 };
