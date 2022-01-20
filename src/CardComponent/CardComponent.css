@@ -1,0 +1,6 @@
+.containerCard{
+    width: 20%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
