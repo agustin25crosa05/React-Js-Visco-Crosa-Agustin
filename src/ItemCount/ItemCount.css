@@ -1,0 +1,10 @@
+.itemCount_Stock{
+    text-align: center;
+    font-size: 120%;
+    color: gray;
+    margin: 0% 0% 10% 0%;
+}
+.buttonCounter{
+    display: flex;
+    justify-content: space-evenly;
+}

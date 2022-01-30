@@ -1,6 +1,11 @@
-.containerCard{
-    width: 20%;
-    margin: 5%;
+.priceCard{
+    text-align: center;
+}
+.stockCard{
+    text-align: right;
+    color: rgba(102, 103, 109, 0.932);
+}
+.cardActions{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import CardWidget from "./CardWidget";
 import './NavBar.css'
 
-const NavBar = (props) => {
+const NavBar = () => {
     return(
 		<div>
 			<nav className="navbar">
