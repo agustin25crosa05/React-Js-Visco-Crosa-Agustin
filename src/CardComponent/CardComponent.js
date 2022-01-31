@@ -24,7 +24,7 @@ const MediaCard = (props) => {
           {props.priceCard}
         </Typography>
       </CardContent>
-      <ItemCount initial='1' />
+      <ItemCount initial={1} stock={5} onAdd={onAdd} />
     </Card>
   );
 }
