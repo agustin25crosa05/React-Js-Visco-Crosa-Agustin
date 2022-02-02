@@ -5,6 +5,7 @@ import './App.css';
 import NavBar from './NavBar/NavBar';
 import Header from "./Header/Header";
 import MediaCard from "./CardComponent/CardComponent";
+import ItemList from "./ItemList/ItemList";
 
 
 class App extends Component{
@@ -33,6 +34,7 @@ class App extends Component{
           priceCard='$18.499'
         />
       </div>
+      <ItemList />
     </div>
 
     );

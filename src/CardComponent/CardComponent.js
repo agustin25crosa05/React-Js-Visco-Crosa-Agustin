@@ -7,24 +7,24 @@ import Typography from '@mui/material/Typography';
 import './CardComponent.css';
 import ItemCount from "../ItemCount/ItemCount";
 
-const MediaCard = (props) => {
+const MediaCard = ({imgCard, nameCard, descriptionCard, priceCard}) => {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia>
-        <img src={props.imgCard} alt='clothes'height={350}/>
+        <img src={imgCard} alt='clothes'height={350}/>
       </CardMedia>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {props.nameCard}
+          {nameCard}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {props.descriptionCard}
+          {descriptionCard}
         </Typography>
         <Typography className="priceCard" gutterBottom variant="h5" component="div">
-          {props.priceCard}
+          {priceCard}
         </Typography>
       </CardContent>
-      <ItemCount initial='1' />
+      <ItemCount/>
     </Card>
   );
 }

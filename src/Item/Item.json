@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "name": "ZAPATILLAS RUNFALCON",
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/eaf626ef3a034baab16eac9200d3b221_9366/Zapatillas_Runfalcon_2.0_Violeta_FY9627_01_standard.jpg",
+      "description": "ZAPATILLAS DE RUNNING LIVIANAS PARA USO DIARIO",
+      "price": "$10.999"
+    },
+    {
+        "id": 2,
+        "name": "ZAPATILLAS GRAND COURT BASE",
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1790130ab31944ddbb90aa4300cd10a9_9366/Zapatillas_Grand_Court_Base_Blanco_EE7904_01_standard.jpg",
+        "username": "Bret",
+        "email": "Sincere@april.biz"
+      }
+]
